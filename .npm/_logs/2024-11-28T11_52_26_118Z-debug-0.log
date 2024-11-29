@@ -1,0 +1,20 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v22.8.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/whatsapp-bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm set registry https://registry.npm.taobao.org
+8 verbose argv "set" "registry" "https://registry.npm.taobao.org"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2024-11-28T11_52_26_118Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2024-11-28T11_52_26_118Z-debug-0.log
+11 info config set "registry" "https://registry.npm.taobao.org"
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 verbose cwd /data/data/com.termux/files/home/whatsapp-bot
+15 verbose os Linux 5.4.254-android12-9-660869-g6e96dd35d0bd-ab531
+16 verbose node v22.8.0
+17 verbose npm  v10.8.2
+18 verbose exit 0
+19 info ok

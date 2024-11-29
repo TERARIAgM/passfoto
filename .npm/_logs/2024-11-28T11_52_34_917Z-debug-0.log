@@ -1,0 +1,23 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v22.8.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/whatsapp-bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install whatsapp-web.js qrcode-terminal
+8 verbose argv "install" "whatsapp-web.js" "qrcode-terminal"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2024-11-28T11_52_34_917Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2024-11-28T11_52_34_917Z-debug-0.log
+11 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest whatsapp-web.js@*
+16 silly packumentCache full:https://registry.npm.taobao.org/whatsapp-web.js cache-miss
+17 http fetch GET https://registry.npm.taobao.org/whatsapp-web.js attempt 1 failed with CERT_HAS_EXPIRED
+18 http fetch GET https://registry.npm.taobao.org/whatsapp-web.js attempt 2 failed with CERT_HAS_EXPIRED
+19 http fetch GET https://registry.npm.taobao.org/whatsapp-web.js attempt 3 failed with CERT_HAS_EXPIRED
+20 silly fetch manifest qrcode-terminal@*
+21 silly packumentCache full:https://registry.npm.taobao.org/qrcode-terminal cache-miss
+22 http fetch GET https://registry.npm.taobao.org/qrcode-terminal attempt 1 failed with CERT_HAS_EXPIRED

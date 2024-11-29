@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesin Motivasi Animasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background: linear-gradient(45deg, #83a4d4, #b6fbff);
+            color: #333;
+            animation: gradientBackground 10s infinite alternate;
+        }
+        @keyframes gradientBackground {
+            0% { background: linear-gradient(45deg, #83a4d4, #b6fbff); }
+            100% { background: linear-gradient(45deg, #ff9a9e, #fecfef); }
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+        .message {
+            margin-top: 30px;
+            font-size: 26px;
+            font-weight: bold;
+            color: #ffffff;
+            animation: fadeIn 1s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: white; text-shadow: 2px 2px 5px #000;">Selamat Datang di Mesin Motivasi</h1>
+    <p style="color: #fff; font-size: 18px;">Klik tombol untuk mendapatkan motivasi yang penuh semangat!</p>
+    <button onclick="generateMotivation()">Berikan Motivasi</button>
+    <div class="message" id="motivasi"></div>
+
+    <script>
+        const motivasiList = [
+            "Jangan menyerah, setiap usaha pasti membuahkan hasil!",
+            "Hari ini adalah kesempatan baru untuk sukses!",
+            "Kesuksesan dimulai dengan langkah pertama.",
+            "Keberhasilan tidak datang pada mereka yang hanya menunggu.",
+            "Kamu lebih kuat dari yang kamu pikirkan!",
+            "Setiap langkah kecil adalah kemajuan besar!"
+        ];
+
+        function generateMotivation() {
+            const randomIndex = Math.floor(Math.random() * motivasiList.length);
+            const messageDiv = document.getElementById('motivasi');
+            messageDiv.style.animation = "none"; // Reset animasi
+            setTimeout(() => {
+                messageDiv.style.animation = ""; // Aktifkan animasi ulang
+                messageDiv.textContent = motivasiList[randomIndex];
+            }, 10);
+        }
+    </script>
+</body>
+</html>

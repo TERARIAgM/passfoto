@@ -1,0 +1,23 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v22.8.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/whatsapp-bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm uninstall puppeteer puppeteer-core
+8 verbose argv "uninstall" "puppeteer" "puppeteer-core"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2024-11-28T11_45_08_619Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2024-11-28T11_45_08_619Z-debug-0.log
+11 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 silly audit report null
+17 verbose cwd /data/data/com.termux/files/home/whatsapp-bot
+18 verbose os Linux 5.4.254-android12-9-660869-g6e96dd35d0bd-ab531
+19 verbose node v22.8.0
+20 verbose npm  v10.8.2
+21 verbose exit 0
+22 info ok
