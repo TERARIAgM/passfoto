@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Web Pas Foto - Buat Pas Foto </title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+<div class="container">
+    <h1>Premium Web Pas Foto</h1>
+    <p>Buat pas foto berkualitas tinggi dengan mudah dan cepat. Pilih ukuran, warna background, dan upload foto Anda.</p>
+
+    {% if error %}
+    <div class="error">{{ error }}</div>
+    {% endif %}
+
+    <form method="POST" enctype="multipart/form-data">
+        <label for="foto">Upload Foto:</label>
+        <input type="file" name="foto" id="foto" accept="image/*" required />
+
+        <label for="ukuran">Pilih Ukuran Pas Foto:</label>
+        <select name="ukuran" id="ukuran" required>
+            <option value="">--Pilih Ukuran--</option>
+            <option value="3x4">3x4 (354x472 px)</option>
+            <option value="4x6">4x6 (472x709 px)</option>
+        </select>
+
+        <label for="warna">Pilih Warna Background:</label>
+        <select name="warna" id="warna" required>
+            <option value="">--Pilih Warna--</option>
+            <option value="merah">Merah</option>
+            <option value="biru">Biru</option>
+        </select>
+
+        <button type="submit">Proses Pas Foto</button>
+    </form>
+
+    <footer>
+        <p>© 2025 Premium Web Pas Foto. Hasil profesional, tanpa ribet.</p>
+    </footer>
+</div>
+</body>
+</html>
